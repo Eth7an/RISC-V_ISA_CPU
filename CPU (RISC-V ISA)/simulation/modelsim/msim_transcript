@@ -1,0 +1,243 @@
+# Reading pref.tcl
+# do CPU_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/CPU\ (RISC-V\ ISA) {C:/intelFPGA_lite/CPU (RISC-V ISA)/ROM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:20:53 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/CPU (RISC-V ISA)" C:/intelFPGA_lite/CPU (RISC-V ISA)/ROM.v 
+# -- Compiling module ROM
+# 
+# Top level modules:
+# 	ROM
+# End time: 18:20:53 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/CPU\ (RISC-V\ ISA) {C:/intelFPGA_lite/CPU (RISC-V ISA)/RegisterFile.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:20:53 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/CPU (RISC-V ISA)" C:/intelFPGA_lite/CPU (RISC-V ISA)/RegisterFile.v 
+# -- Compiling module RegisterFile
+# 
+# Top level modules:
+# 	RegisterFile
+# End time: 18:20:53 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/CPU\ (RISC-V\ ISA) {C:/intelFPGA_lite/CPU (RISC-V ISA)/Register.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:20:53 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/CPU (RISC-V ISA)" C:/intelFPGA_lite/CPU (RISC-V ISA)/Register.v 
+# -- Compiling module Register
+# 
+# Top level modules:
+# 	Register
+# End time: 18:20:53 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/CPU\ (RISC-V\ ISA) {C:/intelFPGA_lite/CPU (RISC-V ISA)/RAM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:20:53 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/CPU (RISC-V ISA)" C:/intelFPGA_lite/CPU (RISC-V ISA)/RAM.v 
+# -- Compiling module RAM
+# 
+# Top level modules:
+# 	RAM
+# End time: 18:20:53 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/CPU\ (RISC-V\ ISA) {C:/intelFPGA_lite/CPU (RISC-V ISA)/ProgramCounter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:20:53 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/CPU (RISC-V ISA)" C:/intelFPGA_lite/CPU (RISC-V ISA)/ProgramCounter.v 
+# -- Compiling module ProgramCounter
+# 
+# Top level modules:
+# 	ProgramCounter
+# End time: 18:20:53 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/CPU\ (RISC-V\ ISA) {C:/intelFPGA_lite/CPU (RISC-V ISA)/PCID.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:20:53 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/CPU (RISC-V ISA)" C:/intelFPGA_lite/CPU (RISC-V ISA)/PCID.v 
+# -- Compiling module PCID
+# 
+# Top level modules:
+# 	PCID
+# End time: 18:20:54 on May 03,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/CPU\ (RISC-V\ ISA) {C:/intelFPGA_lite/CPU (RISC-V ISA)/Mux.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:20:54 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/CPU (RISC-V ISA)" C:/intelFPGA_lite/CPU (RISC-V ISA)/Mux.v 
+# -- Compiling module Mux
+# 
+# Top level modules:
+# 	Mux
+# End time: 18:20:54 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/CPU\ (RISC-V\ ISA) {C:/intelFPGA_lite/CPU (RISC-V ISA)/Multiplexer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:20:54 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/CPU (RISC-V ISA)" C:/intelFPGA_lite/CPU (RISC-V ISA)/Multiplexer.v 
+# -- Compiling module Multiplexer
+# 
+# Top level modules:
+# 	Multiplexer
+# End time: 18:20:54 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/CPU\ (RISC-V\ ISA) {C:/intelFPGA_lite/CPU (RISC-V ISA)/InstructionDecoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:20:54 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/CPU (RISC-V ISA)" C:/intelFPGA_lite/CPU (RISC-V ISA)/InstructionDecoder.v 
+# -- Compiling module InstructionDecoder
+# 
+# Top level modules:
+# 	InstructionDecoder
+# End time: 18:20:54 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/CPU\ (RISC-V\ ISA) {C:/intelFPGA_lite/CPU (RISC-V ISA)/immGen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:20:54 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/CPU (RISC-V ISA)" C:/intelFPGA_lite/CPU (RISC-V ISA)/immGen.v 
+# -- Compiling module immGen
+# 
+# Top level modules:
+# 	immGen
+# End time: 18:20:54 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/CPU\ (RISC-V\ ISA) {C:/intelFPGA_lite/CPU (RISC-V ISA)/Decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:20:54 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/CPU (RISC-V ISA)" C:/intelFPGA_lite/CPU (RISC-V ISA)/Decoder.v 
+# -- Compiling module Decoder
+# 
+# Top level modules:
+# 	Decoder
+# End time: 18:20:54 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/CPU\ (RISC-V\ ISA) {C:/intelFPGA_lite/CPU (RISC-V ISA)/Datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:20:54 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/CPU (RISC-V ISA)" C:/intelFPGA_lite/CPU (RISC-V ISA)/Datapath.v 
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	Datapath
+# End time: 18:20:54 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/CPU\ (RISC-V\ ISA) {C:/intelFPGA_lite/CPU (RISC-V ISA)/CPU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:20:54 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/CPU (RISC-V ISA)" C:/intelFPGA_lite/CPU (RISC-V ISA)/CPU.v 
+# -- Compiling module CPU
+# 
+# Top level modules:
+# 	CPU
+# End time: 18:20:54 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/CPU\ (RISC-V\ ISA) {C:/intelFPGA_lite/CPU (RISC-V ISA)/ControlUnit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:20:54 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/CPU (RISC-V ISA)" C:/intelFPGA_lite/CPU (RISC-V ISA)/ControlUnit.v 
+# -- Compiling module ControlUnit
+# 
+# Top level modules:
+# 	ControlUnit
+# End time: 18:20:55 on May 03,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/CPU\ (RISC-V\ ISA) {C:/intelFPGA_lite/CPU (RISC-V ISA)/ALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:20:55 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/CPU (RISC-V ISA)" C:/intelFPGA_lite/CPU (RISC-V ISA)/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 18:20:55 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/CPU\ (RISC-V\ ISA) {C:/intelFPGA_lite/CPU (RISC-V ISA)/binaryToBCD.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:20:55 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/CPU (RISC-V ISA)" C:/intelFPGA_lite/CPU (RISC-V ISA)/binaryToBCD.v 
+# -- Compiling module binaryToBCD
+# 
+# Top level modules:
+# 	binaryToBCD
+# End time: 18:20:55 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/CPU\ (RISC-V\ ISA) {C:/intelFPGA_lite/CPU (RISC-V ISA)/HexToSevenSegment.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:20:55 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/CPU (RISC-V ISA)" C:/intelFPGA_lite/CPU (RISC-V ISA)/HexToSevenSegment.v 
+# -- Compiling module HexToSevenSegment
+# 
+# Top level modules:
+# 	HexToSevenSegment
+# End time: 18:20:55 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/CPU\ (RISC-V\ ISA) {C:/intelFPGA_lite/CPU (RISC-V ISA)/CPU_testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:20:55 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/CPU (RISC-V ISA)" C:/intelFPGA_lite/CPU (RISC-V ISA)/CPU_testbench.v 
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 18:20:55 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  CPU_testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" CPU_testbench 
+# Start time: 18:20:55 on May 03,2022
+# Loading work.CPU_testbench
+# Loading work.CPU
+# Loading work.ControlUnit
+# Loading work.Datapath
+# Loading work.PCID
+# Loading work.ProgramCounter
+# Loading work.ROM
+# Loading work.InstructionDecoder
+# Loading work.ALU
+# Loading work.Mux
+# Loading work.RegisterFile
+# Loading work.Decoder
+# Loading work.Multiplexer
+# Loading work.Register
+# Loading work.immGen
+# Loading work.RAM
+# Loading work.binaryToBCD
+# Loading work.HexToSevenSegment
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'ALUop'. The port definition is at: C:/intelFPGA_lite/CPU (RISC-V ISA)/ControlUnit.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/DUT/CU File: C:/intelFPGA_lite/CPU (RISC-V ISA)/CPU.v Line: 22
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DP'.  Expected 21, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/DUT/DP File: C:/intelFPGA_lite/CPU (RISC-V ISA)/CPU.v Line: 24
+# ** Warning: (vsim-3722) C:/intelFPGA_lite/CPU (RISC-V ISA)/CPU.v(24): [TFMPC] - Missing connection for port 'readRS1'.
+# ** Warning: (vsim-3722) C:/intelFPGA_lite/CPU (RISC-V ISA)/CPU.v(24): [TFMPC] - Missing connection for port 'ALU1'.
+# ** Warning: (vsim-3722) C:/intelFPGA_lite/CPU (RISC-V ISA)/CPU.v(24): [TFMPC] - Missing connection for port 'ALUout'.
+# ** Warning: (vsim-3722) C:/intelFPGA_lite/CPU (RISC-V ISA)/CPU.v(24): [TFMPC] - Missing connection for port 'readRS2'.
+# ** Warning: (vsim-3722) C:/intelFPGA_lite/CPU (RISC-V ISA)/CPU.v(24): [TFMPC] - Missing connection for port 'dataOut'.
+# ** Warning: (vsim-3722) C:/intelFPGA_lite/CPU (RISC-V ISA)/CPU.v(24): [TFMPC] - Missing connection for port 'nextPC'.
+# ** Warning: (vsim-3722) C:/intelFPGA_lite/CPU (RISC-V ISA)/CPU.v(24): [TFMPC] - Missing connection for port 'immOut'.
+# ** Warning: (vsim-3722) C:/intelFPGA_lite/CPU (RISC-V ISA)/CPU.v(24): [TFMPC] - Missing connection for port 'offsetPC'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'fourAdder'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/DUT/DP/instructions/fourAdder File: C:/intelFPGA_lite/CPU (RISC-V ISA)/PCID.v Line: 27
+# ** Warning: (vsim-3722) C:/intelFPGA_lite/CPU (RISC-V ISA)/PCID.v(27): [TFMPC] - Missing connection for port 'status'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'offsetAdder'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/DUT/DP/instructions/offsetAdder File: C:/intelFPGA_lite/CPU (RISC-V ISA)/PCID.v Line: 29
+# ** Warning: (vsim-3722) C:/intelFPGA_lite/CPU (RISC-V ISA)/PCID.v(29): [TFMPC] - Missing connection for port 'status'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/intelFPGA_lite/CPU (RISC-V ISA)/CPU_testbench.v(25)
+#    Time: 145 ps  Iteration: 3  Instance: /CPU_testbench
+# Break in Module CPU_testbench at C:/intelFPGA_lite/CPU (RISC-V ISA)/CPU_testbench.v line 25
